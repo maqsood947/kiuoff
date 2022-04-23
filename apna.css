@@ -1,0 +1,43 @@
+body{
+    background-image: url("assets/1234.jpg");
+    background-size: cover ;
+  
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    cursor: pointer;
+}
+
+nav {
+    background-color: rgb(5, 5, 78);
+    margin: 25px  30px 0px 30px;
+
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex  ;
+    justify-content: space-around;
+    
+
+}
+nav ul li   {
+    padding: 30px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.names{
+    width: 200px;
+    background-color:rgba(94, 94, 109, 0.795)  ;
+    height: 80vh;
+    
+    
+}
